@@ -1,0 +1,4 @@
+https://github.com/jessicayung/self-driving-car-nd/tree/master/p4-advanced-lane-lines
+https://github.com/maxritter/SDC-Vehicle-Lane-Detection
+https://www.coursera.org/learn/convolutional-neural-networks/lecture/VgyWR/object-detection
+https://drive.google.com/open?id=1k2TIY59uRPIikhT0cfts4Qpz4gZXRhXh
