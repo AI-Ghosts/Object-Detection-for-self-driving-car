@@ -1,16 +1,16 @@
 self-driving cars
-https://github.com/udacity/self-driving-car/tree/master/datasets
-https://data.world/steven-fazzio/google-self-driving-car
+	https://github.com/udacity/self-driving-car/tree/master/datasets
+	https://data.world/steven-fazzio/google-self-driving-car
 
 
 cars
-http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html
-http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+	http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html
+	http://ai.stanford.edu/~jkrause/cars/car_dataset.html
 
 
 Traffic signs
-http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset
+	Tested: http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset
 
 
 pedestrain
-http://www.lookingatpeople.com/download-daimler-ped-class-benchmark/index.html
+	Tested: http://www.lookingatpeople.com/download-daimler-ped-class-benchmark/index.html
