@@ -1,11 +1,5 @@
-self-driving cars
-	https://github.com/udacity/self-driving-car/tree/master/datasets
-	https://data.world/steven-fazzio/google-self-driving-car
-
-
 cars
-	http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html
-	http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+	Tested: http://ai.stanford.edu/~jkrause/cars/car_dataset.html
 
 
 Traffic signs
