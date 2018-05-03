@@ -8,3 +8,4 @@ Traffic signs
 
 pedestrain
 	Tested: http://www.lookingatpeople.com/download-daimler-ped-class-benchmark/index.html
+	Tested: http://mmlab.ie.cuhk.edu.hk/projects/PETA.html
