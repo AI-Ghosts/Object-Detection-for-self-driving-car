@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 THRESHOLD = 0.4
-VISUILIZATION = True
+VISUILIZATION = False
 def update_heatmap(detections, heat):
     for (x1, y1, x2, y2, depth) in detections:
         heat[y1:y2, x1:x2] += depth

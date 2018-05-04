@@ -12,7 +12,7 @@ from keras.models import Sequential
 from keras.models import load_model
 from keras.models import model_from_json
 
-VISIULIZATION = True
+VISIULIZATION = False
 PREDICT_THRESHOLD = 0.5
 
 
@@ -20,11 +20,11 @@ PREDICT_THRESHOLD = 0.5
 
 classes=['car','ped','sign']
 
-json_file = open(r'../Model_Weights/model.json', 'r')
+json_file = open(r'../../Model_Weights/model.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
 classifier = model_from_json(loaded_model_json)
-classifier.load_weights(r"../Model_Weights/self_driving_cars_weights.h5")
+classifier.load_weights(r"../../Model_Weights/self_driving_cars_weights.h5")
 
 
 def Sliding_Window(img,step,siz,xstart,ystart,depth):
