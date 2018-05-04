@@ -204,18 +204,21 @@ def detect_lane(img, alpha = 0.2, opacity = 0.7):
 
 #######################
 
+if __name__ == '__main__':
+    #cap = cv2.VideoCapture("challenge.mp4")
+    cap = cv2.VideoCapture("solidWhiteRight.mp4")
 
-#cap = cv2.VideoCapture("test_videos\challenge.mp4")
-cap = cv2.VideoCapture("test_videos\solidWhiteRight.mp4")
+    while True:
+        ret, frame = cap.read()
+        testingImage = r'test1.jpg'
+        img=cv2.imread(r"../Testing_Images/"+testingImage)
+        frame=img
+        cv2.imshow('Video', detect_lane(frame, alpha = 0.8, opacity = 0.3))
 
-while True:
-    ret, frame = cap.read()
-    cv2.imshow('Video', detect_lane(frame, alpha = 0.8, opacity = 0.3))
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
- 
-cap.release()
-cv2.destroyAllWindows()
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+     
+    cap.release()
+    cv2.destroyAllWindows()
 
 
-#detect_image("test_images/lane.jpeg")
